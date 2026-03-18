@@ -697,6 +697,10 @@ class IminPrinter {
     return IminPrinterPlatform.instance.getPrinterSpeedList();
   }
 
+  Future<void> setPrinterDensity(IminPrinterDensity density) {
+    return IminPrinterPlatform.instance.setPrinterDensity(density);
+  }
+
   Future<void> setPrinterSpeed(int speed) {
     return IminPrinterPlatform.instance.setPrinterSpeed(speed);
   }
