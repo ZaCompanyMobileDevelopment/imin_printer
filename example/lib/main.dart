@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: version == '2.0.0' ? const NewHome() : const Home() ,
+      home: const Home() , //version == '2.0.0' ? const NewHome() : 
     );
   }
 }
